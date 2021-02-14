@@ -12,6 +12,7 @@ pandas = "*"
 seaborn = "*"
 sklearn = "*"
 jupyterlab = "*"
+scipy = "*"
 
 [dev-packages]
 
