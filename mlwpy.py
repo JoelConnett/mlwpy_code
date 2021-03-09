@@ -33,6 +33,12 @@ np.random.seed(42)
 
 # default is [6.4, 4.8] (4:3)
 mpl.rcParams['figure.figsize'] = [4.0, 3.0]
+COLOR = 'gray'
+mpl.rcParams['text.color'] = COLOR
+mpl.rcParams['axes.labelcolor'] = COLOR
+mpl.rcParams['xtick.color'] = COLOR
+mpl.rcParams['ytick.color'] = COLOR
+
 
 # turn on latex tables
 pd.set_option('display.latex.repr', True)
